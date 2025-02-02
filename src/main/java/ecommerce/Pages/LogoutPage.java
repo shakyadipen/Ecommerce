@@ -9,7 +9,9 @@ public class LogoutPage {
         this.driver=driver;
     }
     private By dropDownLink= By.xpath("//button[@class=\"action switch\"]");
-    private By secondDropDownLink=By.xpath("/html/body/div[2]/header/div[1]/div/ul/li[2]/span/button");
+  //  private By secondDropDownLink=By.xpath("/html/body/div[2]/header/div[1]/div/ul/li[2]/span/button");
+    private By secondDropDownLink=By.xpath("//button[@class=\"action switch\"]");
+
     private By logoutLink=By.xpath("//a[contains(text(),('Sign Out'))]");
     public void clickLogout(){
         driver.findElement(dropDownLink).click();
