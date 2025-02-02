@@ -8,40 +8,16 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">29,824</td><td></td><td></td></tr>
+<tr><th colspan="8">All Test Suite</th></tr>
+<tr><td><a href="#t0">D:/AutomationTesting/Selenium/Selenium-Workspace-Udemy/Ecommerce/src/test/java/RegisterTest.java</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">21,405</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Ecommerce Login/Logout Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">20,143</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">41,548</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">LogoutTest</td><td><a href="#m0">VerifySecondLogout</a></td><td rowspan="1">1738481570551</td><td rowspan="1">4046</td></tr><tr class="failedodd"><td rowspan="1">RegisterTest</td><td><a href="#m1">VerifyRegisterTest</a></td><td rowspan="1">1738481574613</td><td rowspan="1">2190</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">LoginTest</td><td><a href="#m2">VerifyLoginTest</a></td><td rowspan="1">1738481560935</td><td rowspan="1">7371</td></tr><tr class="passedodd"><td rowspan="1">LogoutTest</td><td><a href="#m3">VerifyFirstLogout</a></td><td rowspan="1">1738481568322</td><td rowspan="1">2228</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">D:/AutomationTesting/Selenium/Selenium-Workspace-Udemy/Ecommerce/src/test/java/RegisterTest.java &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">RegisterTest</td><td><a href="#m0">VerifyRegisterTest</a></td><td rowspan="1">1738492329469</td><td rowspan="1">8113</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Ecommerce Login/Logout Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">LoginTest</td><td><a href="#m1">VerifyLoginTest</a></td><td rowspan="1">1738492348485</td><td rowspan="1">7575</td></tr><tr class="passedodd"><td rowspan="1">LogoutTest</td><td><a href="#m2">VerifySecondLogout</a></td><td rowspan="1">1738492356069</td><td rowspan="1">2456</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">LogoutTest#VerifySecondLogout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&quot;action switch&quot;]&quot;}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c82d4714ee6a50060362404621ccd120, findElement {using=xpath, value=//button[@class=&quot;action switch&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: D:\Temp Data\scoped_dir1578...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9149/devtool..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c82d4714ee6a50060362404621ccd120
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at ecommerce.Pages.LogoutPage.clickLogout(LogoutPage.java:22)
-	at LogoutTest.VerifySecondLogout(LogoutTest.java:30)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">RegisterTest#VerifyRegisterTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
-	at RegisterTest.VerifyRegisterTest(RegisterTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">LoginTest#VerifyLoginTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Login Successfull with emailecomregister78@gmail.com</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">LogoutTest#VerifyFirstLogout</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">The user null successfully logged out</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>D:/AutomationTesting/Selenium/Selenium-Workspace-Udemy/Ecommerce/src/test/java/RegisterTest.java</h2><h3 id="m0">RegisterTest#VerifyRegisterTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Registration Successfull with accountecomregister171@gmail.comand full name:TestName LastName</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Ecommerce Login/Logout Test</h2><h3 id="m1">LoginTest#VerifyLoginTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Login Successfull with emailecomregister78@gmail.com</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">LogoutTest#VerifySecondLogout</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">The user TestName LastNamesuccessfully logged out</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

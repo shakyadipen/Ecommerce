@@ -1,0 +1,4 @@
+ecommerce\Pages\LogoutPage.class
+ecommerce\Pages\CreateOrderPage.class
+ecommerce\Pages\LoginPage.class
+ecommerce\Pages\RegisterPage.class

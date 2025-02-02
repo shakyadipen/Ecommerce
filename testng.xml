@@ -8,21 +8,21 @@
         <classes>
             <class name="RegisterTest">
             </class>
-                <class name="LogoutTest">
-                    <methods>
-                        <include name="VerifyFirstLogout"></include>
-                    </methods>
-                </class>
+<!--                <class name="LogoutTest">-->
+<!--                    <methods>-->
+<!--                        <include name="VerifyFirstLogout"></include>-->
+<!--                    </methods>-->
+<!--                </class>-->
         </classes>
 </test>
     <test name="Ecommerce Login/Logout Test">
         <classes>
             <class name="LoginTest"/>
-<!--            <class name="LogoutTest">-->
-<!--                    <methods>-->
-<!--                        <include name="VerifySecondLogout"></include>-->
-<!--                    </methods>-->
-<!--            </class>-->
+            <class name="LogoutTest">
+                    <methods>
+                        <include name="VerifySecondLogout"></include>
+                    </methods>
+            </class>
         </classes>
     </test>
 </suite>

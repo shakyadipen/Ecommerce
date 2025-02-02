@@ -1,0 +1,7 @@
+TestUtilities\ReadExcel.class
+LogoutTest.class
+TestUtilities\ReadConfig.class
+LoginTest.class
+RegisterTest.class
+TestUtilities\Reporting.class
+BaseTest.class
