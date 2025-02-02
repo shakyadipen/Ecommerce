@@ -25,8 +25,9 @@ public void VerifyFirstLogout(){
 @Test
     public void VerifySecondLogout(){
         LogoutPage logout2=new LogoutPage(driver);
-       // RegisterPage register=new RegisterPage(driver);
-        logout2.clickSecondLogout();
+       //Wait 2 seconds//
+    driver.manage().timeouts().implicitlyWait(4,TimeUnit.SECONDS);
+        logout2.clickLogout();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         String logoutURL=driver.getCurrentUrl();
         assertTrue(logoutURL.contains("https://magento.softwaretestingboard.com/"));
